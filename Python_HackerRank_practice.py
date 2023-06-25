@@ -2,7 +2,9 @@
 #list Comprehension 
 # Python List are most versatile function you can almost add anything to list 
 '''list can contain 1. integers, 2.strings, 3. even lists'''
-# Q1. Initialize your list and read in the value of  followed by  lines of commands where each command will be of the  types listed above. Iterate through each command in order and perform the corresponding operation on your list.
+# Q1. Initialize your list and read in the value of  followed by  lines of commands where each 
+# command will be of the  types listed above. Iterate through each command in order and perform 
+# the corresponding operation on your list.
 
 N = int(input())
 output = []
@@ -22,4 +24,6 @@ for i in range(N):
         output.reverse()
     elif command[0] == 'print':
         print(output)
+
+
 
