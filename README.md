@@ -21,3 +21,8 @@
  # Python any function 
  syntax = any()
  Python any() function returns True if any of the elements of a given iterable( List, Dictionary, Tuple, set, etc) are True else it returns False.
+
+ # python split and join function 
+ this function is used to split the given string by delimeter 
+ syntax 'split' = .split(" ") [" ", this colon shows by how you want split]
+ syntax 'join' = .join()

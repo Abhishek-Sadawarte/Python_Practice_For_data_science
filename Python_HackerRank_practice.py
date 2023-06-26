@@ -55,3 +55,15 @@ def SwapCase(s):
             output += i.lower()
     return output
 
+'''Q2 add two string one in first row and second in secod row 
+input: 
+row1 = ross
+row2 = taylor 
+expected output: hello Ross Taylor! you delved into python. '''
+
+def join_string(first, second):
+    a = first + " " + second
+    b = "Hello {}! You delved into python.".format(a)
+    return print(b)
+
+
