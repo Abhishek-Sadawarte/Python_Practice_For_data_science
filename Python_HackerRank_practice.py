@@ -41,5 +41,17 @@ def count_substring(string, sub_string):
 
 count_substring(string,sub_string)
 
-''''''
+'''SwapCase
+Q3. swap given string, if string contain Upeprcase char then to lower or vice versa
+input = Www.HackerRank.com → wWW.hACKERrANK.COM
+Pythonist 2 → pYTHONIST 2  '''
+
+def SwapCase(s):
+    output = ""
+    for i in s:
+        if i.islower():
+            output += i.upper()
+        else:
+            output += i.lower()
+    return output
 
