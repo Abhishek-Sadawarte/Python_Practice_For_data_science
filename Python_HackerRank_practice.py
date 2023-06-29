@@ -114,3 +114,24 @@ def find_mode(list):
         if count == max_value:
             result.append(a)
     return print(min(result))
+
+# Q6 Read a given string, 
+# change the character at a given index and then print the modified string.
+def mutate_string(string,postion,character):
+    str2 = list(string)
+    str2[position] = character
+    string = ''.join(Str2)
+    return string
+
+#Q7. print Decimal, Hexadecimal, octal, binary number for given input number 
+#Python has inbuilt function for above queries 
+# so lets see 
+
+def print_formated(num):
+    width = len(bin(num))[2:]
+    for i in range(1,num+1):
+        dec = str(i)
+        octal = (oct(i)[2:])
+        hexa = (hex(i)[2:]).upper()
+        binary = (bin(i)[2:])
+        print(dec.rjust(width),octal.rjust(width),hexa.rjust(width),binary.rjust(width))
