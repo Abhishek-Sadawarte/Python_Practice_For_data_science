@@ -26,3 +26,13 @@
  this function is used to split the given string by delimeter 
  syntax 'split' = .split(" ") [" ", this colon shows by how you want split]
  syntax 'join' = .join()
+
+ # fibonaci series 
+ The Fibonacci sequence begins with  and  as its first and second terms. After these first two elements, each subsequent element is equal to the sum of the previous two elements.
+
+Programmatically:
+1. fibonacci(0) = 0
+2. fibonacci(1) = 1
+3. fibonnaci(n) = fibonacci(n-1) + fibonacci(n-2)
+
+
