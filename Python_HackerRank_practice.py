@@ -135,3 +135,5 @@ def print_formated(num):
         hexa = (hex(i)[2:]).upper()
         binary = (bin(i)[2:])
         print(dec.rjust(width),octal.rjust(width),hexa.rjust(width),binary.rjust(width))
+
+### make sure to add something 
