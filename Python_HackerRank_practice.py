@@ -136,4 +136,7 @@ def print_formated(num):
         binary = (bin(i)[2:])
         print(dec.rjust(width),octal.rjust(width),hexa.rjust(width),binary.rjust(width))
 
-### make sure to add something 
+### Sets, Q8 give average of distinct values given in array
+def average(array):
+    average = sum(set(array))/ len(set(array))
+    return average
